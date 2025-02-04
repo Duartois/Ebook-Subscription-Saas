@@ -1,5 +1,5 @@
-import PricingCard from '../../components/pricing-card';
-import { Button } from '../../components/ui/button';
+import PricingCard from '@/components/pricing-card';
+import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,8 +7,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '../../components/ui/dropdown-menu';
-import { Input } from '../../components/ui/input';
+} from '@/components/ui/dropdown-menu';
+import { Input } from '@/components/ui/input';
 import { Check, MenuIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';

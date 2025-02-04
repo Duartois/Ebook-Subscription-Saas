@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 body {
   background: url('./assets/noise.svg');
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(18, 51, 73, 0.87);
 }
 
 @layer base {
@@ -69,10 +64,10 @@ body {
 }
 
 @layer base {
-     * {
+  * {
     @apply border-border;
-    }
-   body {
+  }
+  body {
     @apply bg-background text-foreground;
   }
 }
