@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '../../../../components/ui/card';
+} from '@/components/ui/card';
 import { CreditCard, XCircle } from 'lucide-react';
 
 export default async function MySubscription() {
