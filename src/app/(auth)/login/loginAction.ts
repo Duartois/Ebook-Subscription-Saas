@@ -1,7 +1,7 @@
 'use server';
 
-import { signIn } from '../../../../auth';
-import  isRedirectError  from 'next';
+import { signIn } from '@/auth';
+import { isRedirectError } from 'next/dist/client/components/redirect';
 import { redirect } from 'next/navigation';
 
 export default async function loginAction(_prevState: any, formData: FormData) {
