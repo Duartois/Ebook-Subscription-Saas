@@ -34,7 +34,7 @@ export default function Navbar({ userName }: { userName: string }) {
               variant={'link'}
               className={cn(pathname === '/dashboard' ? 'underline' : '')}
             >
-              Livro do Mês
+              Book of the Month
             </Button>
           </Link>
           <Link
@@ -47,7 +47,7 @@ export default function Navbar({ userName }: { userName: string }) {
                 pathname === '/dashboard/minha-assinatura' ? 'underline' : ''
               )}
             >
-              Minha Assinatura
+              My Subscription
             </Button>
           </Link>
 

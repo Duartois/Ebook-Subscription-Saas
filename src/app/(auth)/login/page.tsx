@@ -19,17 +19,17 @@ export default async function LoginPage() {
     <>
       <Card className="max-w-sm w-full rounded-2xl mt-12">
         <CardHeader>
-          <h2 className="text-xl font-bold">Boas Vindas</h2>
-          <CardDescription>Faça seu login com email e senha.</CardDescription>
+          <h2 className="text-xl font-bold">Welcome!</h2>
+          <CardDescription>Log in with your email and password.</CardDescription>
         </CardHeader>
         <CardContent>
           <LoginForm />
         </CardContent>
       </Card>
       <p className="text-sm text-muted-foreground mt-3">
-        Não possui cadastro?{' '}
+      Don't have an account?{' '}
         <Link className="text-gray-800 hover:underline" href="/cadastro">
-          Registre-se
+        Register now
         </Link>
         .
       </p>

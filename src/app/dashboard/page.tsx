@@ -8,7 +8,7 @@ import bookImg from './book.png';
 export default async function MonthlyBook() {
   return (
     <>
-      <h1 className="text-3xl font-bold mb-6">Livro do Mês</h1>
+      <h1 className="text-3xl font-bold mb-6">Book of the Month</h1>
       <Image src={bookImg} alt="Livro do mês" />
       <Link
         className={cn(
@@ -18,7 +18,7 @@ export default async function MonthlyBook() {
         href="/livro.pdf"
         target="_blank"
       >
-        <Download className="h-4 w-4" /> Download do Pdf
+        <Download className="h-4 w-4" /> Download Pdf
       </Link>
     </>
   );

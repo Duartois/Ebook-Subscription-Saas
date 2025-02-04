@@ -19,17 +19,17 @@ export default async function RegisterPage() {
     <>
       <Card className="max-w-sm w-full rounded-2xl mt-12">
         <CardHeader>
-          <h2 className="text-xl font-bold">Cadastre-se</h2>
-          <CardDescription>Faça seu cadastro gratuitamente.</CardDescription>
+          <h2 className="text-xl font-bold">Sign in</h2>
+          <CardDescription>Register for free.</CardDescription>
         </CardHeader>
         <CardContent>
           <RegisterForm />
         </CardContent>
       </Card>
       <p className="text-sm text-muted-foreground mt-3">
-        Já possui cadastro?{' '}
+      Already registered?{' '}
         <Link className="text-gray-800 hover:underline" href="/login">
-          Faça o login
+          Login
         </Link>
         .
       </p>

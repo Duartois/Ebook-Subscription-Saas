@@ -23,20 +23,20 @@ export default function RegisterForm() {
       )}
       <Form action={formAction}>
         <div>
-          <Label>Nome</Label>
-          <Input type="text" name="name" placeholder="Fulano de Tal" />
+          <Label>Name</Label>
+          <Input type="text" name="name" placeholder="your name" />
         </div>
         <div>
           <Label>Email</Label>
-          <Input type="email" name="email" placeholder="eu@exemplo.com" />
+          <Input type="email" name="email" placeholder="your@email.com" />
         </div>
         <div>
-          <Label>Senha</Label>
+          <Label>Password</Label>
           <Input type="password" name="password" placeholder="********" />
         </div>
         <div>
           <Button disabled={isPending} className="w-full mt-6" type="submit">
-            Registrar
+            Register
           </Button>
         </div>
       </Form>

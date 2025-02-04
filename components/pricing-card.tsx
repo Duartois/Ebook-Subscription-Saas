@@ -13,39 +13,39 @@ export default function PricingCard() {
   return (
     <Card className="w-[350px] text-left md:mt-20 mt-10">
       <CardHeader>
-        <CardTitle>Plano Pro Premium VIP</CardTitle>
+        <CardTitle>Pro Premium VIP Plan</CardTitle>
         <CardDescription>
-          Tudo que você precisa para seus estudos
+        Everything you need for your studies
         </CardDescription>
       </CardHeader>
       <CardContent>
         <p className="text-4xl font-bold mb-8 mt-4">
-          R$29
+          $19
           <span className="font-normal text-muted-foreground text-lg">
-            /mês
+            /month
           </span>{' '}
         </p>
         <ul>
           <li className="flex gap-2 text-muted-foreground">
             <Check className="w-4 text-green-600" />
-            Acesso a 1 ebook por mês
+            Access to 1 ebook per month
           </li>
           <li className="flex gap-2 text-muted-foreground">
             <Check className="w-4 text-green-600" />
-            Curadoria especial
+            Special curation
           </li>
           <li className="flex gap-2 text-muted-foreground">
             <Check className="w-4 text-green-600" />
-            Acesso ilimitado
+            Unlimited access
           </li>
           <li className="flex gap-2 text-muted-foreground">
             <Check className="w-4 text-green-600" />
-            Cancele quando quiser
+            Cancel anytime
           </li>
         </ul>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">Assine Agora</Button>
+        <Button className="w-full">Subscribe Now</Button>
       </CardFooter>
     </Card>
   );

@@ -34,9 +34,10 @@ export default async function Home() {
               <DropdownMenuLabel>Menu</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <a href={'/#funcionamento'}>
-                <DropdownMenuItem>Funcionamento</DropdownMenuItem>
+                <DropdownMenuItem>
+                Operational</DropdownMenuItem>
               </a>
-              <DropdownMenuItem>Preço</DropdownMenuItem>
+              <DropdownMenuItem>Price</DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="/login">
                   <Button variant={'bg-white'}>Login</Button>
@@ -46,10 +47,10 @@ export default async function Home() {
           </DropdownMenu>
           <div className="items-center gap-1 hidden md:flex">
             <Link href={'#funcionamento'}>
-              <Button variant={'link'}>Funcionamento</Button>
+              <Button variant={'link'}>Operational</Button>
             </Link>
             <Link href={'#preco'}>
-              <Button variant={'link'}>Preço</Button>
+              <Button variant={'link'}>Price</Button>
             </Link>
             {session && (
               <Link href="/dashboard">
@@ -64,30 +65,29 @@ export default async function Home() {
           </div>
         </nav>
         <h1 className="md:text-6xl text-2xl font-bold mt-8 md:mt-16">
-          Simplifique Seus Estudos{' '}
+          Simplify Your Studies{' '}
         </h1>
         <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
-          Deixe que nós fazemos a curadoria para você. Assine nossa plataforma e
-          receba todos os meses um ebook novo de programação.
+        Let us curate it for you. Subscribe to our platform and get a new programming ebook every month.
         </p>
         <form className="md:mt-16 mt-10">
           <div className="flex gap-2 justify-center">
             <Input
-              placeholder="Coloque seu email"
+              placeholder="Enter your email"
               type="text"
               className="max-w-sm border-gray-300 border"
             />
-            <Button>Assine Agora</Button>
+            <Button>Subscribe now</Button>
           </div>
           <p className="text-xs text-muted-foreground mt-2">
-            Comece sua assinatura agora mesmo. Cancele quando quiser.{' '}
+          Start your subscription now. Cancel anytime.{' '}
           </p>
         </form>
       </section>
       <section className="bg-white md:py-16 py-8" id="funcionamento">
         <div className="container mx-auto">
           <h2 className="text-2xl md:text-4xl font-bold text-center">
-            Como funciona?
+            How does it work?
           </h2>
           <div className="mx-24 xl:mx-80 flex flex-col md:flex-row items-center justify-between">
             <Image
@@ -97,15 +97,15 @@ export default async function Home() {
             />
             <ul className="md:text-2xl text-lg text-muted-foreground space-y-4 md:space-y-6 flex-shrink-0">
               <li className="flex items-center justify-between gap-4">
-                Acesso a 1 ebook por mês{' '}
+              Access to 1 ebook per month{' '}
                 <Check size={24} className="text-green-600" />
               </li>
               <li className="flex items-center justify-between gap-4">
-                Curadoria especial
+              Curated selection
                 <Check size={24} className="text-green-600" />
               </li>
               <li className="flex items-center justify-between gap-4">
-                Cancele quando quiser
+                Cancel anytime
                 <Check size={24} className="text-green-600" />
               </li>
             </ul>
@@ -114,13 +114,10 @@ export default async function Home() {
       </section>
       <section className="md:py-16 py-8 text-center px-2" id="preco">
         <h2 className="md:text-6xl text-2xl font-bold md:mt-16">
-          Preço Simples e Transparente
+        Level up your skills to grow smarter
         </h2>
         <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
-          Pra que inúmeros planos quando nós sabemos exatamente o que é melhor
-          para você? Assine o nosso plano mensal Pro Premium VIP e garanta
-          mensalmente um ebook novo de programação. E por menos de um café por
-          dia.
+        Why have countless plans when we know exactly what’s best for you? Subscribe to our Pro Premium VIP monthly plan and get a new programming ebook every month. All for less than a coffee a day.
         </p>
 
         <div className="flex justify-center">
@@ -129,7 +126,7 @@ export default async function Home() {
       </section>
       <section className="bg-white md:py-16 py-10 text-center">
         <h2 className="md:text-6xl text-2xl font-bold md:mt-16">
-          Pronto Para Mudar Sua Vida?
+        Don’t miss out, join now!
         </h2>
         <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
           Faça como milhares de outras pessoas. Assine nosso produto e tenha
@@ -137,12 +134,12 @@ export default async function Home() {
         </p>
         <Button className="mt-14 w-96">Assine Agora</Button>
         <p className="text-xs text-muted-foreground mt-2">
-          Comece sua assinatura agora mesmo. Cancele quando quiser.{' '}
+        Do like thousands of other people. Subscribe to our product and have your studies guaranteed.{' '}
         </p>
         <footer className="mt-16 border-t border-gray-300 pt-10">
           <Image src={logo} alt="Logotipo" className="mx-auto" />
           <p className="text-muted-foreground">
-            © 2024 LivroSaaS. Todos os direitos reservados.
+            © 2024 SaasBook. All rights reserved.
           </p>
         </footer>
       </section>

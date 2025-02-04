@@ -17,17 +17,17 @@ export default function LoginForm() {
           className="text-xs mb-6 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
           role="alert"
         >
-          <strong className="font-bold">Erro! </strong>
+          <strong className="font-bold">Error! </strong>
           <span className="block sm:inline">{state?.message}</span>
         </div>
       )}
       <Form action={formAction}>
         <div>
           <Label>Email</Label>
-          <Input type="email" name="email" placeholder="eu@exemplo.com" />
+          <Input type="email" name="email" placeholder="your@email.com" />
         </div>
         <div>
-          <Label>Senha</Label>
+          <Label>Password</Label>
           <Input type="password" name="password" placeholder="********" />
         </div>
         <div>
