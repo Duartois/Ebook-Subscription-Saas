@@ -4,7 +4,7 @@
 
 body {
   background: url('./assets/noise.svg');
-  background-color: rgba(18, 51, 73, 0.87);
+  background-color: rgba(6, 35, 54, 0.281);
 }
 
 @layer base {

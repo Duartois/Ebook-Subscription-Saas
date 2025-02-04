@@ -16,6 +16,7 @@ import logo from './assets/logo.svg';
 import womanImg from './assets/woman.svg';
 import { auth } from '@/auth';
 
+
 export default async function Home() {
   const session = await auth();
   const userName = session?.user?.name ?? '';
