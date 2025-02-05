@@ -11,7 +11,7 @@ import { Button } from './ui/button';
 
 export default function PricingCard() {
   return (
-    <Card className="w-[350px] text-left md:mt-20 mt-10">
+    <Card className=" text-primary w-[350px] text-left md:mt-20 mt-10">
       <CardHeader>
         <CardTitle>Pro Premium VIP Plan</CardTitle>
         <CardDescription>
@@ -19,7 +19,7 @@ export default function PricingCard() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-4xl font-bold mb-8 mt-4">
+        <p className=" text-primary text-4xl font-bold mb-8 mt-4">
           $19
           <span className="font-normal text-muted-foreground text-lg">
             /month

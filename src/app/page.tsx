@@ -45,29 +45,29 @@ export default async function Home() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <div className="items-center gap-1 hidden md:flex">
+          <div className="items-center gap-1 hidden md:flex ">
             <Link href={'#funcionamento'}>
-              <Button variant={'link'}>Operational</Button>
+              <Button className= "text-primary" variant={'link'}>Operational</Button>
             </Link>
             <Link href={'#preco'}>
-              <Button variant={'link'}>Price</Button>
+              <Button className= "text-primary" variant={'link'}>Price</Button>
             </Link>
             {session && (
               <Link href="/dashboard">
-                <Button variant={'bg-white'}>Dashboard</Button>
+                <Button className= "text-primary" variant={'bg-white'}>Dashboard</Button>
               </Link>
             )}
             {!session && (
               <Link href="/login">
-                <Button variant={'bg-white'}>Login</Button>
+                <Button className= "text-primary" variant={'bg-white'}>Login</Button>
               </Link>
             )}
           </div>
         </nav>
-        <h1 className="md:text-6xl text-2xl font-bold mt-8 md:mt-16">
+        <h1 className="text-primary md:text-6xl text-2xl font-bold mt-8 md:mt-16">
           Simplify Your Studies{' '}
         </h1>
-        <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
+        <p className="text-primary mt-4 text-sm md:text-xl max-w-3xl mx-auto">
         Let us curate it for you. Subscribe to our platform and get a new programming ebook every month.
         </p>
         <form className="md:mt-16 mt-10">
@@ -75,11 +75,11 @@ export default async function Home() {
             <Input
               placeholder="Enter your email"
               type="text"
-              className="max-w-sm border-gray-300 border"
+              className="max-w-sm border-primary border border-opacity-80 placeholder:text-primary placeholder:opacity-60"
             />
             <Button>Subscribe now</Button>
           </div>
-          <p className="text-xs text-muted-foreground mt-2">
+          <p className="text-primary-800 text-xs text-muted-foreground mt-2">
           Start your subscription now. Cancel anytime.{' '}
           </p>
         </form>
@@ -116,7 +116,7 @@ export default async function Home() {
         <h2 className="md:text-6xl text-2xl font-bold md:mt-16">
         Level up your skills to grow smarter
         </h2>
-        <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
+        <p className="text-primary mt-4 text-sm md:text-xl max-w-3xl mx-auto">
         Why have countless plans when we know exactly what’s best for you? Subscribe to our Pro Premium VIP monthly plan and get a new programming ebook every month. All for less than a coffee a day.
         </p>
 
@@ -128,11 +128,11 @@ export default async function Home() {
         <h2 className="md:text-6xl text-2xl font-bold md:mt-16">
         Don’t miss out, join now!
         </h2>
-        <p className="text-gray-500 mt-4 text-sm md:text-xl max-w-3xl mx-auto">
+        <p className="text-primary mt-4 text-sm md:text-xl max-w-3xl mx-auto">
           Faça como milhares de outras pessoas. Assine nosso produto e tenha
           garantido seus estudos{' '}
         </p>
-        <Button className="mt-14 w-96">Assine Agora</Button>
+        <Button className="mt-14 w-96">Subscribe now</Button>
         <p className="text-xs text-muted-foreground mt-2">
         Do like thousands of other people. Subscribe to our product and have your studies guaranteed.{' '}
         </p>
