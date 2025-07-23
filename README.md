@@ -23,6 +23,11 @@ A fully functional SaaS template built with Next.js App Router, Prisma ORM, Tail
 - **SQLite (dev)** – Easily replaceable with PostgreSQL/MySQL
 - **PostCSS** – Tailwind build integration
 
+
+## 🔗 Live Demo
+
+👉 [Live SaasBook](https://saas-ebook-seven.vercel.app/)
+
 ## 📁 Project Structure
 
 /components → Reusable UI & logic (buttons, cards, pricing)
